@@ -8,33 +8,33 @@ let num2
 function add() {
     num1 = parseFloat(document.getElementById("num1-input").value)
     num2 = parseFloat(document.getElementById("num2-input").value)
-    let addButton = document.getElementById("add-button")
-    addButton = num1 + num2
-    document.getElementById("sum-el").textContent = addButton
+    //let addButton = document.getElementById("add-button")
+    let addButton = num1 + num2
+    document.getElementById("sum-el").textContent = "Sum:" + addButton
     }
 
 function subtract() {
     num1 = parseFloat(document.getElementById("num1-input").value)
     num2 = parseFloat(document.getElementById("num2-input").value)
-    let subButton = document.getElementById("subtract-button")
-    subButton = num1 - num2
-    document.getElementById("sum-el").textContent = subButton
+    //let subButton = document.getElementById("subtract-button")
+    let subButton = num1 - num2
+    document.getElementById("sum-el").textContent = "Sum:" + subButton
 }
 
 function divide() {
     num1 = parseFloat(document.getElementById("num1-input").value)
     num2 = parseFloat(document.getElementById("num2-input").value)
-    let divButton = document.getElementById("divide-button")
-    divButton = num1 / num2
-    document.getElementById("sum-el").textContent = divButton
+    //let divButton = document.getElementById("divide-button")
+    let divButton = num1 / num2
+    document.getElementById("sum-el").textContent = "Sum:" + divButton
 }
 
 function multiply() {
     num1 = parseFloat(document.getElementById("num1-input").value)
     num2 = parseFloat(document.getElementById("num2-input").value)  
-    let multButton = document.getElementById("multiply-button")
-    multButton = num1 * num2
-    document.getElementById("sum-el").textContent = multButton
+    //let multButton = document.getElementById("multiply-button")
+    let multButton = num1 * num2
+    document.getElementById("sum-el").textContent = "Sum:" + multButton
 }
 
 
